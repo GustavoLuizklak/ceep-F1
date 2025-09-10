@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fórmula 1 - Página Inicial</title>
+
+  <!-- META para redes sociais (Open Graph) -->
+  <meta property="og:title" content="Fórmula 1 - História e Emoção" />
+  <meta property="og:description" content="Explore a história, equipes e lendas da Fórmula 1, como Ayrton Senna e Lewis Hamilton." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1607632377639-3c0c9eac6ad9?auto=format&fit=crop&w=1200&q=80" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="#" />
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #121212;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+                  url('https://images.unsplash.com/photo-1607632377639-3c0c9eac6ad9?auto=format&fit=crop&w=1470&q=80')
+                  no-repeat center center/cover;
+      text-align: center;
+      padding: 60px 20px;
+      animation: fadeIn 2s ease-in;
+    }
+
+    .hero h1 {
+      font-size: 4em;
+      color: #e10600;
+    }
+
+    .hero p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+
+    nav {
+      margin-top: 20px;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #e10600;
+    }
+
+    .intro, .historia {
+      padding: 40px 20px;
+      text-align: center;
+      max-width: 900px;
+      margin: 0 auto;
+      animation: fadeInUp 1.5s ease;
+    }
+
+    .intro h2 {
+      color: #e10600;
+      margin-bottom: 20px;
+    }
+
+    .historia h2 {
+      color: #e10600;
+      margin-bottom: 20px;
+    }
+
+    .historia p {
+      text-align: left;
+      margin-bottom: 15px;
+      white-space: pre-line;
+    }
+
+    /* Animações */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Responsividade */
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 2.5em;
+      }
+
+      .hero p {
+        font-size: 1em;
+      }
+
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <h1>Fórmula 1</h1>
+    <p>Velocidade, História e Emoção</p>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="equipes.html">Equipes</a>
+      <a href="senna.html">Ayrton Senna</a>
+      <a href="hamilton.html">Lewis Hamilton</a>
+      <a href="fan-numero1.html">Fan Número 1</a>
+      <a href="produtos.html">Produtos</a>
+    </nav>
+  </header>
+
+  <section class="intro">
+    <h2>Bem-vindo ao mundo da Fórmula 1</h2>
+    <p>A Fórmula 1 é a categoria máxima do automobilismo mundial. Explore as equipes que fazem parte do campeonato atual, conheça lendas como Ayrton Senna e acompanhe a carreira do multicampeão Lewis Hamilton.</p>
+  </section>
+
+  <section class="historia">
+    <h2>História da Fórmula 1</h2>
+
+    <p>🏁 <strong>Origens da Fórmula 1</strong><br>
+    Início do automobilismo: No final do século XIX e início do século XX, corridas de automóveis começaram a se popularizar na Europa, especialmente na França.
+    
+    Campeonatos europeus: Na década de 1930, já existiam campeonatos de "Grand Prix", disputados entre marcas como Alfa Romeo, Mercedes-Benz e Auto Union (antecessora da Audi).
+    
+    Criação da Fórmula 1: Em 1946, a FIA padronizou as regras das corridas de "monopostos", criando a "Fórmula A", que em 1949 passou a ser chamada oficialmente de Fórmula 1.</p>
+
+    <p>🏎️ <strong>Primeiros Campeonatos (1950-1960)</strong><br>
+    1ª Temporada Oficial: Começou em 1950, com o GP da Inglaterra em Silverstone. O primeiro campeão foi Giuseppe Farina (Alfa Romeo).
+    
+    Domínio de Juan Manuel Fangio: Venceu 5 títulos entre 1951 e 1957, com Mercedes e Maserati.</p>
+
+    <p>🔧 <strong>Evolução Tecnológica e Segurança (1960-1980)</strong><br>
+    Década de 1960: Surgem nomes como Jim Clark, Graham Hill e Jack Brabham. A Lotus inova com design aerodinâmico.
+    
+    Década de 1970: Aumentam os investimentos em aerodinâmica e segurança. Aparecem asas e efeitos solo.
+    
+    Pilotos icônicos: Emerson Fittipaldi (campeão em 1972), Niki Lauda, James Hunt, Jackie Stewart.</p>
+
+    <p>🇧🇷 <strong>Era de Ouro do Brasil (1980-1990)</strong><br>
+    Nelson Piquet (campeão em 1981, 1983 e 1987) e Ayrton Senna (1988, 1990, 1991) colocam o Brasil no topo.
+    
+    Senna x Prost: Rivalidade histórica entre Ayrton Senna e Alain Prost.</p>
+
+    <p>🌍 <strong>Globalização e Era Schumi (1990-2006)</strong><br>
+    Michael Schumacher domina os anos 2000 com 7 títulos (Benetton e Ferrari).
+    
+    Expansão da F1 para novos países: Malásia, Bahrein, China.</p>
+
+    <p>🏆 <strong>Era Híbrida e Domínio da Mercedes (2014-2020)</strong><br>
+    Motores híbridos: combinação de combustão e energia elétrica a partir de 2014.
+    
+    Lewis Hamilton domina com a Mercedes, igualando Schumacher com 7 títulos.</p>
+
+    <p>🔄 <strong>Nova Era: Regulamentos e Renovação (2022–presente)</strong><br>
